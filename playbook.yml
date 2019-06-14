@@ -1,0 +1,9 @@
+---
+- hosts: target_machine
+  tasks:
+    - name: Create folder
+      file: 
+        path: /samplefolder/
+        state: directory
+
+
